@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import image from "../../assets/images/blood.png";
-import Permohonan from "../../pages/Permohonan/Permohonan"
+import image from "../../../assets/images/blood.png";
+import Permohonan from "../../../pages/Permohonan/Permohonan";
 
 const Navbar = () => {
   return (

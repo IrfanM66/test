@@ -1,0 +1,30 @@
+.hero {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #C23B22;
+}
+.hero > h1,
+.hero > p {
+  height: 100px;
+  margin: 10px 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 3rem;
+  text-align: center;
+  padding-top: 0;
+}
+.hero > h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.hero > p {
+  font-size: 1.7rem;
+}
