@@ -1,0 +1,73 @@
+.permohonan {
+  min-height: 400px;
+  position: relative;  
+}
+.permohonan::before {
+  content: "adsa";
+  background-color: #8A0000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+}
+.permohonan_container {
+  position: relative;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 80%;
+}
+.deskription-permohonan {
+  font-size: large;
+}
+.permohonan h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #F8F7F2;
+}
+.permohonan p {
+  text-align: justify;
+  width: 800px;
+  padding-top: 2rem;
+}
+.persyaratan {
+  min-height: 400px;
+  position: relative;  
+}
+.persyaratan::before {
+  content: "adsa";
+  background-color: #8A0000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+}
+.persyaratan_container {
+  position: relative;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 80%;
+}
+.deskription-persyaratan {
+  font-size: large;
+}
+.persyaratan h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #F8F7F2;
+}
+.persyaratan p {
+  text-align: justify;
+  width: 800px;
+  padding-top: 2rem;
+}
+
