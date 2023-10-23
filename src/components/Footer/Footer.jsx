@@ -8,7 +8,7 @@ import image4 from "../../assets/images/logo-twitter.svg";
 const Footer = () => {
   return (
     <footer>
-      <h2 className="footer_title">Mohammad Irfan Maulana</h2>
+      <h2 className="footer_title">Teman Donor</h2>
       <p className="footer_info">Jl. Sriwijaya 5, Jember</p>
       <p className="footer_info">+62 8123 1909 825</p>
       <div className="footer_navigation">

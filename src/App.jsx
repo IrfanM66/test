@@ -1,22 +1,19 @@
 import { useState } from "react";
-import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import AboutUs from "./components/AboutUs/AboutUs";
-import Permohonan from "../pages/Permohonan/Permohonan";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/LandingPage/LandingPage";
+import Permohonan from "./pages/Permohonan/Permohonan";
+import Login from "./pages/Login/Login";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <AboutUs />
-      <Contact />
-      <Footer />
-      <Permohonan />
-    </>
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path="/" element={<Login />} /> */}
+        <Route path="/landing-page" element={<LandingPage />} />
+        <Route path="/permohonan" element={<Permohonan />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

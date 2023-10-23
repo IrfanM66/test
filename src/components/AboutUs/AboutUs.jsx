@@ -9,15 +9,11 @@ const AboutUs = () => {
         <h2>About Us</h2>
         <img src={image} alt="" />
         <p className="deskription-aboutUs">
-          Gunung Bromo atau dalam bahasa Tengger dieja "Brama", juga disebut
-          Kaldera Tengger, adalah sebuah gunung berapi aktif di Jawa Timur,
-          Indonesia. Gunung ini memiliki ketinggian 2.329 meter di atas
-          permukaan laut dan berada dalam empat wilayah kabupaten, yakni
-          Kabupaten Probolinggo, Kabupaten Pasuruan, Kabupaten Lumajang, dan
-          Kabupaten Malang. Gunung Bromo terkenal sebagai objek wisata utama di
-          Jawa Timur. Sebagai sebuah objek wisata, Bromo menjadi menarik karena
-          statusnya sebagai gunung berapi yang masih aktif. Gunung Bromo
-          termasuk dalam kawasan Taman Nasional Bromo Tengger Semeru.
+          Teman Donor adalah ide website yang berawal dari unit donor darah yang
+          berada di setiap daerah yang terkadang sulit atau malas untuk menunggu
+          antrian. Maka dari itu, kami membuat website Teman Donor untuk
+          memudahkan masyarakat dalam mendaftar donor darah ataupun menerima
+          donor.
         </p>
       </div>
     </section>
